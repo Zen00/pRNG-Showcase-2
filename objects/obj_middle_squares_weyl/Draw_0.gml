@@ -6,8 +6,9 @@ black_squares_ = 0;
 white_squares_ = 0;
 for(var j=0; j<room_height; j++) {
 	for(var i=0; i<room_width; i++) {
-		prng_number_ = lcg_random_float();
-
+		//Built in pRNG (probably a Xorshift, based on hearse)
+		prng_number_ = msws_random_float();
+		
 		if(prng_number_ < probability_) {
 			if(color_me_) { draw_set_color(make_color_rgb(random(255),random(255),random(255))); }
 			draw_point(i,j);

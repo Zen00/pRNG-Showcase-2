@@ -11,4 +11,7 @@ success_ =						0;
 attempts_ =						0;
 success_rate_ =					0;
 
-random_set_seed(seed_);
+//Linear congruential generator variables, as used by Borland Delphi
+modulus_ = power(2,32);
+multiplier_ = 1664525;
+increment_ = 1013904223;

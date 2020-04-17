@@ -14,11 +14,11 @@ black_squares = 0; white_squares = 0;
 //var _sum = seed;
 
 //Middle Square Weyl Sequence
-//var a = power(2,32); w = 0; s = 0xb5ad4eceda1ce2a9; //Check the papper for further complexity
+var a = power(2,32); w = 0; s = 0xb5ad4eceda1ce2a9; //Check the paper for further complexity
 
 //Sobol
-var count = 0;
-var s = random(power(2,32));
+//var count = 0;
+//var s = random(power(2,32));
 
 draw_set_color(c_white);
 for(var j=0; j<room_height; j++) {
@@ -32,13 +32,13 @@ for(var j=0; j<room_height; j++) {
 		//_sum -= floor(_sum);
 		
 		//MSWS
-		//a *= a;
-		//w += s;
-		//a += w;
-		//a = (a>>16) | (a<<16);
-		//var _sum = a;
-		//_sum /= power(10,8);
-		//_sum -= floor(_sum);
+		a *= a;
+		w += s;
+		a += w;
+		a = (a>>16) | (a<<16);
+		var _sum = a;
+		_sum /= power(10,8);
+		_sum -= floor(_sum);
 		
 		//Xorshift
 		//var _sum = abs(generate_xorshift_prn());
@@ -47,12 +47,12 @@ for(var j=0; j<room_height; j++) {
 		//_sum -= floor(_sum);
 		
 		//Sobol
-		var _sum = sobol(count,s);
+		//var _sum = sobol(count,s);
 		
 		//Built in pRNG (probably a Xorshift)
 		//var _sum = random(1);
 		
-		if(_sum < 0.1) {
+		if(_sum < 0.5) {
 			//draw_set_color(make_color_rgb(random(255),random(255),random(255)));
 			draw_point(i,j);
 			white_squares++;
