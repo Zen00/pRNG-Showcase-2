@@ -3,7 +3,7 @@
 //Generate a set of random numbers from our seed across the room size
 draw_set_color(c_white);
 black_squares_ = 0;
-white_squares_ = 0;
+white_squares_ = 0
 for(var j=0; j<room_height; j++) {
 	for(var i=0; i<room_width; i++) {
 		prng_number_ = xorshift_random_float();

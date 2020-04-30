@@ -24,7 +24,38 @@ draw_set_font(fnt_pixel);
 
 
 //Test
+var _x = 0xfffeffff;
+var _k = 11;
+var _test1 = ((_x >> (32 - _k)) | (_x << _k)) & 0xffffffff;
+var _test2 = ((_x << _k) | (_x >> (32 - _k))) & 0xffffffff;
+var _test3 = ((_x << _k) | (_x >> (32 - _k))) & 0xffffffff;
+var _stop = true;
 
+
+
+
+
+
+
+
+
+
+
+
+/*
+var _test1 = 0xfffffffe;
+var _test2 = _test1 << 45;
+var _test3 = _test1 >> 19;
+var _test4 = _test2 | _test3;
+var _test5 = _test4 & 0xffffffff;
+var _test6 = (_test1 << 45) | (_test1 >> (64 - 45));
+var _test7 = _test6 & 0xffffffff;
+var _test8 = (_test1 << 45)  | (_test1 >> (-45 & 63));
+var _test9 = _test8 & 0xffffffff;
+var _test10  = _test1 >> 21;
+var _test11 = _test1 << 11;
+var _test12 = (_test10 | _test11) & 0xffffffff;
+var _stop = true;
 
 
 
