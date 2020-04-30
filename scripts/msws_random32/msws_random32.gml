@@ -5,5 +5,5 @@ with(obj_middle_squares_weyl) {
 	x1 *= x1;
 	w1 += seed1_;
 	x1 += w1;
-	return (x1 >> 32) | (x1 << 32);
+	return x1 = (x1 >> 32) | (x1 << 32);
 }

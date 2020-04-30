@@ -1,8 +1,8 @@
 {
-    "id": "fc10ffce-ad6b-4d5e-9a2c-c6a1d401c9d4",
+    "id": "8b5ad843-dcff-4e90-a8cd-1300e12c1142",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "generate_xorshift_prn",
+    "name": "rotl32",
     "IsCompatibility": false,
     "IsDnD": false
 }

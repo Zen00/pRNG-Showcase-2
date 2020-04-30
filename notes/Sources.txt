@@ -1,0 +1,9 @@
+https://en.wikipedia.org/wiki/Low-discrepancy_sequence
+https://en.wikipedia.org/wiki/Sobol_sequence
+https://en.wikipedia.org/wiki/Linear_congruential_generator (LCG)
+https://arxiv.org/pdf/1704.00358v4.pdf (MSWS)
+http://vigna.di.unimi.it/xorshift/ (Xorshift)
+https://blog.demofox.org/2020/03/01/using-low-discrepancy-sequences-blue-noise-in-loot-drop-tables-for-games/
+https://blog.demofox.org/2017/10/20/generating-blue-noise-sample-points-with-mitchells-best-candidate-algorithm/
+https://www.youtube.com/watch?v=4sYawx70iP4 (pRNG math)
+https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=vs-2019 (Useful bit type information)
