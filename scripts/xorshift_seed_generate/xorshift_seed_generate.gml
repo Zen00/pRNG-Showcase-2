@@ -1,5 +1,5 @@
 ///@func xorshift_seed_generate32()
-///@desc Generates a 32 bit seed for the XORshift generator
+///@desc Generates a 32 bit seed for the XORshift generator (could also just use the built in pRNG)
 
 with(obj_xorshift128) {
 	seed_ += 0x9e377c15;

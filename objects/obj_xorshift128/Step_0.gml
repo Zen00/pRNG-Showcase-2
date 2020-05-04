@@ -11,7 +11,7 @@ if(keyboard_check_pressed(vk_escape)) { game_end(); }
 
 //New algorithm
 if(keyboard_check_pressed(vk_shift)) {
-	instance_create_layer(x,y,"Instances",obj_built_in_prng);
+	instance_create_layer(x,y,"Instances",obj_sobol_sequence);
 	instance_destroy();
 }
 

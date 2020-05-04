@@ -21,11 +21,3 @@ alarm[0] = 1;
 
 //Set font
 draw_set_font(fnt_pixel);
-
-//Test
-var _s = 0xE3296D171EC4A36F;
-var _x = (_s * _s) & 0xffffffffffffffff;
-var _y1 = (_x >> 32); //Return this
-var _y2 = (_x << 32);
-var _y = _y1 | _y2;
-var _stop = true;

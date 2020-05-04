@@ -1,7 +1,7 @@
 ///@description 
 
 //Change seed on demand, as these all start with the same base seed, these changes happen in the same order
-if(keyboard_check_pressed(vk_space)) { seed_ = random(power(2,32)); random_set_seed(seed_); }
+if(keyboard_check_pressed(vk_space)) { seed_ = random(0xffffffff); }
 
 //Toggle color
 if(keyboard_check_pressed(vk_enter)) { color_me_ = !color_me_; }
