@@ -18,7 +18,7 @@ if(keyboard_check_pressed(vk_shift)) {
 //Do a quick convergence test
 var _loops = 1; //Choose how many attempts you want to do per frame, I wouldn't do more than a 10000
 repeat(_loops) {
-	prng_number_ = sobol(attempts_,seed_);
+	prng_number_ = sobol_random_float(attempts_,seed_);
 	attempts_++;
 	if(prng_number_ < probability_) { success_++; }
 	success_rate_ = success_/attempts_;

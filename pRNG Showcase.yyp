@@ -170,7 +170,7 @@
             "Key": "786b5f2b-d97f-4bf8-b3f0-736713585cff",
             "Value": {
                 "id": "ee221c91-8e7f-4aaa-a3ad-caf91445f712",
-                "resourcePath": "scripts\\sobol\\sobol.yy",
+                "resourcePath": "scripts\\sobol_random_float\\sobol_random_float.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "c6fedc62-624c-4cbb-9f9e-256dc661386d",
+            "Value": {
+                "id": "011572b7-bd38-4056-8e1a-00d54c4e7f8f",
+                "resourcePath": "views\\c6fedc62-624c-4cbb-9f9e-256dc661386d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c8fd1cb1-7631-451e-92d4-96855c50ae22",
             "Value": {
                 "id": "62491f8b-e1f8-416b-8a81-6243b1dfdc98",
@@ -384,8 +392,6 @@
         }
     ],
     "script_order": [
-        "22c38a8b-2ed8-4ea3-8ccf-52f39bb28ab9",
-        "786b5f2b-d97f-4bf8-b3f0-736713585cff",
         "8b5ad843-dcff-4e90-a8cd-1300e12c1142",
         "47f53d61-78e6-414d-bbfc-09758173a109",
         "8ccd4b06-2dfd-4582-a421-541f6ab99c97",
@@ -395,7 +401,9 @@
         "b8177ed0-8a2b-4316-bc96-a984658d7e9d",
         "0a87caf2-62c4-4281-9583-034b8b76294f",
         "fc10ffce-ad6b-4d5e-9a2c-c6a1d401c9d4",
-        "b766e181-5b6a-4b2f-a9e5-0ca016cd1751"
+        "b766e181-5b6a-4b2f-a9e5-0ca016cd1751",
+        "22c38a8b-2ed8-4ea3-8ccf-52f39bb28ab9",
+        "786b5f2b-d97f-4bf8-b3f0-736713585cff"
     ],
     "tutorial": ""
 }
